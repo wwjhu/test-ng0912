@@ -10,7 +10,8 @@
         "noPropertyAccessFromIndexSignature": true,
         "noImplicitReturns": true,
         "paths": {
-            "lib-ng0912": ["dist/lib-ng0912"]
+            "lib-ng0912": ["dist/lib-ng0912"],
+            "lib-ng0912/utils": ["dist/lib-ng0912/utils"]
         },
         "noFallthroughCasesInSwitch": true,
         "sourceMap": true,
