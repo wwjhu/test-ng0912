@@ -1,0 +1,19 @@
+package.json
+package-lock.json
+
+# IDE directories
+.idea/
+.vscode/
+
+# Output directories
+.reports/
+reports/
+coverage/
+.tmp/
+dist/
+out-tsc/
+.angular/
+
+# Imported source
+node_modules/
+libs/
