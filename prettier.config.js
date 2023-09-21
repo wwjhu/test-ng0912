@@ -4,4 +4,5 @@ module.exports = {
     singleQuote: true,
     tabWidth: 4,
     trailingComma: 'all',
+    plugins: ['prettier-plugin-organize-imports'],
 };
