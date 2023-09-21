@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TestBed } from '@angular/core/testing';
+import { TestingModule } from 'lib-ng0912/testing';
 import { FeatureModule } from './feature.module';
 
 describe('FeatureComponent', () => {
@@ -9,11 +10,12 @@ describe('FeatureComponent', () => {
     function setupTest() {
         TestBed.configureTestingModule({
             declarations: [TestFeatureComponent],
-            imports: [FeatureModule],
+            imports: [FeatureModule, TestingModule.with()],
         });
 
         const fixture = TestBed.createComponent(TestFeatureComponent);
         fixture.detectChanges();
+
         return { fixture };
     }
 

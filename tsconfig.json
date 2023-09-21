@@ -11,7 +11,7 @@
         "noImplicitReturns": true,
         "paths": {
             "lib-ng0912": ["dist/lib-ng0912"],
-            "lib-ng0912/utils": ["dist/lib-ng0912/utils"]
+            "lib-ng0912/testing": ["dist/lib-ng0912/testing"]
         },
         "noFallthroughCasesInSwitch": true,
         "sourceMap": true,
