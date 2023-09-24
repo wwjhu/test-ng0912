@@ -3,7 +3,11 @@
     "extends": "../../tsconfig.json",
     "compilerOptions": {
         "outDir": "../../out-tsc/spec",
-        "types": ["jasmine"]
+        "types": ["jasmine"],
+        "paths": {
+            "lib-ng0912": ["projects/lib-ng0912/src"],
+            "lib-ng0912/testing": ["projects/lib-ng0912/testing/src"]
+        }
     },
     "include": ["**/*.spec.ts", "**/*.d.ts"]
 }
